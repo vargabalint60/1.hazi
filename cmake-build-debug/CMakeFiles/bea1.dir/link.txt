@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\bea1.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\bea1.dir/objects.a @CMakeFiles\bea1.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\bea1.dir/objects.a -Wl,--no-whole-archive  -o bea1.exe -Wl,--out-implib,libbea1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bea1.dir\linklibs.rsp
